@@ -7,7 +7,8 @@
     max-width: 100%;
     transition: .7s;
 }
-header{
+
+header {
     background-image: url();
 }
 
@@ -29,6 +30,10 @@ a {
     line-height: normal;
 }
 
+a:hover {
+    color: #8dc048;
+}
+
 .button {
     display: flex;
     gap: 30px;
@@ -44,13 +49,18 @@ a {
 }
 
 .btn2 {
-    width: 88px;
-    padding: 10px 8px;
+    width: 83px;
+    /* padding: 13px 10px; */
     border: none;
+    height: 35px;
     outline: none;
+    margin-top: 10px;
     background-color: #8dc048;
-    border-radius: 10px;
-    /* background: linear-gradient(134deg, #C03EAC 0%, #25D7E2 100%); */
+    border-radius: 5px;
+}
+
+.btn2 a {
+    color: #ffffff;
 }
 
 .cnt-1 {
@@ -73,16 +83,16 @@ a {
     width: 100%;
     z-index: 1;
     background-color: #ffffff;
-    border-bottom: #8dc048 2px solid;
-     box-shadow:  -5px -5px 12px #5b47bf3d,
-                 5px 5px 12px rgba(0, 0, 0, 0.16);
-    height: 100px;
+    /* border-bottom: #8dc048 2px solid; */
+    box-shadow: -4px -4px 10px #8f8f8f1f,
+        4px 4px 10px rgba(143, 143, 143, 0.12);
+    height: 97px;
 }
 
 .nav-menu {
     display: flex;
     align-items: center;
-    gap: 3rem;
+    gap: 2rem;
     justify-content: space-between;
 }
 
@@ -107,6 +117,48 @@ a {
     background-color: #fff;
 }
 
+.banner-text h1 {
+    padding-top: 150px;
+    color: #000;
+    font-family: Nunito;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.text-p {
+    color: #000;
+    /* font-family: Red Hat Display; */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 25px;
+}
+
+.button1 {
+    display: inline-flex;
+    padding: 8px 12px;
+    border-radius: 4px;
+    background: #8DC048;
+    border: none;
+}
+.button1 a{
+    display: flex;
+    justify-content: center;   
+    gap: 10px;
+    align-items: center;
+}
+.banner-text button a p {
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    /* margin-top: -10px; */
+}
 
 
 
@@ -157,11 +209,12 @@ a {
     .cnt-1 {
         display: block;
         align-items: center;
-        border: 1.5px solid #FFF;
+        /* border: 1.5px solid #FFF; */
         background: none;
         padding: 10px 20px;
         margin-top: -20px;
     }
+
     .cnt-2 {
         display: block;
         align-items: center;
@@ -183,7 +236,7 @@ a {
         width: 100%;
         text-align: right;
         transition: 0.3s;
-        background-color: #acff2f2a;
+        background-color: #acff2fa6;
     }
 
     a {
