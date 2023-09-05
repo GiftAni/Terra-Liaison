@@ -121,6 +121,13 @@ a:hover {
 }
 .container{
     background-color: #0000000a;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+.section1-text{
+    margin-left: 110px;
 }
 .banner-text h1 {
     padding-top: 150px;
@@ -186,11 +193,13 @@ a:hover {
 }
 .background{
     background: #262B30;
-    width: 735px;
-    height: 664px;
+    width: 650px;
+    height: 610px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 95px;
+    
 }
 
 
