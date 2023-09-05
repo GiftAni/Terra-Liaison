@@ -14,6 +14,9 @@ header {
     background-image: url();
 }
 
+.logo{
+    margin-left: -40px;
+}
 .logo img {
     width: 200px;
     padding: 10px;
@@ -123,27 +126,44 @@ a:hover {
     background-color: #0000000a;
     display: flex;
     justify-content: center;
-    gap: 60px;
+    gap: 87px;
     flex-wrap: wrap;
 }
 .section1-text{
-    margin-left: 110px;
+    margin-left: 90px;
+    margin-top: 30px;
 }
 .banner-text h1 {
     padding-top: 150px;
     color: #000;
     font-family: Nunito;
-    font-size: 36px;
+    font-size: 33px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
     margin-bottom: 15px;
 }
 
+.banner-text h1 span {
+    padding-top: 150px;
+    color: #000;
+    font-family: Nunito;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 650;
+    line-height: normal;
+    margin-bottom: 15px;
+}
+
+.banner-text h1 span svg{
+    position: absolute;
+    margin-left: -184px;
+    margin-top: -10px;
+}
 .banner-text p {
     color: #000;
     font-family: 'Red Hat Display', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -151,7 +171,7 @@ a:hover {
 
 .button1 {
     display: inline-flex;
-    padding: 8px 12px;
+    padding: 6px 10px;
     border-radius: 4px;
     background: #8DC048;
     border: none;
@@ -174,10 +194,10 @@ a:hover {
     line-height: normal;
 }
 
-.haedind-text {
+.haeding-text {
     color: #000;
     font-family: Nunito;
-    font-size: 24px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: 129.5%;
@@ -190,6 +210,7 @@ a:hover {
     align-content: flex-start;
     gap: 0px 17px;
     flex-wrap: wrap;
+    margin-top: 25px;
 }
 .background{
     background: #262B30;
