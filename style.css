@@ -346,9 +346,8 @@ a:hover {
     width: 340px;
 }
 
-.section3-text{
-    p
-}
+.section3-text {}
+
 .section3-text p {
     color: rgba(0, 0, 0, 0.40);
     font-family: 'Red Hat Display';
@@ -356,6 +355,7 @@ a:hover {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    margin-top: 10px;
 }
 
 .section3-text h1 {
@@ -365,18 +365,47 @@ a:hover {
     font-style: normal;
     font-weight: 500;
     line-height: 131.3%;
+    margin-top: 15px;
 }
 
-.txt-p {
-    color: rgba(0, 0, 0, 0.60);
+.section3-text .txt-p {
+    color: #000000;
     font-family: 'Red Hat Display';
-    font-size: 12px;
+    font-size: 13px;
     font-style: normal;
     font-weight: 500;
     line-height: 122.3%;
+    margin-top: 15px;
 }
 
+.Vector1 {
+    margin-left: 355px;
+}
 
+.Vector2 {
+    margin-top: 68px;
+}
+
+.center-txt {
+    display: inline-flex;
+    padding: 10px 48px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    text-align: center;
+    background: rgba(216, 216, 216, 0.54);
+}
+
+.center-txt {
+    color: #000;
+    font-family: 'Red Hat Display';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 122.3%;
+   
+}
 
 
 
