@@ -9,6 +9,11 @@
     max-width: 100%;
     transition: .7s;
 }
+body{
+    width: 100%;
+    max-width: 100%;
+    min-width: 320px;
+}
 
 header {
     background-image: url();
@@ -356,6 +361,10 @@ a:hover {
 
 .image3 img {
     width: 340px;
+    transition: transform .5s ease;
+}
+.image3:hover img{
+    transform: scale(1.1);
 }
 
 .section3-text1 {
@@ -390,6 +399,17 @@ a:hover {
     font-weight: 500;
     line-height: 122.3%;
     margin-top: 15px;
+}
+.text-sec3{
+    color: #000;
+font-family: 'Red Hat Display';
+font-size: 16px;
+font-style: italic;
+font-weight: 400;
+line-height: normal;
+text-align: end;
+margin-left: -50px;
+margin-top: 10px;
 }
 
 .Vector1 {
@@ -426,6 +446,13 @@ a:hover {
    
 }
 
+.section4-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 80px;
+}
 .section4-txt h1{
     color: #000;
 font-family: Nunito;
@@ -452,6 +479,11 @@ font-weight: 500;
 line-height: 124.9%; 
 margin-top: 15px;
 }
+
+
+.num-1 svg{
+    margin-left: 17px;
+}
 .num-1 h1{
     background-color: #58bd7499; ;
     width: 36px;
@@ -466,6 +498,29 @@ font-weight: 700;
 line-height: normal;
 text-align: center;
 padding-top: 7px;
+}
+
+.num-1a h1{
+    background-color: #58bd7499; ;
+    width: 36px;
+height: 36px;
+flex-shrink: 0;
+border-radius: 50px;
+color: #ffffff;
+font-family: Nunito;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-align: center;
+padding-top: 7px;
+margin-bottom: 40px;
+}
+
+.general-numtxt{
+    display: flex;
+    gap: 20px;
+    align-items: center;
 }
 
 .num-1text h1{
@@ -489,7 +544,51 @@ letter-spacing: 0.4px;
 text-decoration-line: underline;
 }
 
- 
+ .section4-img{
+    text-align: center;
+ }
+
+.section5{
+    margin-top: 80px;
+}
+.section5-image img{
+    width: 1502px;
+    height: 384px;
+    flex-shrink: 0;
+    opacity: 22%;
+    position: relative;
+}
+
+.section5-txt{
+font-family: Nunito;
+font-size: 220px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
